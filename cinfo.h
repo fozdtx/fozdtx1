@@ -1,0 +1,1 @@
+#define CPP_VERSION_LATEST
