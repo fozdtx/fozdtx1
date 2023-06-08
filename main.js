@@ -11,7 +11,7 @@ function download_02(){
 
 function download_03(){
   window.open("https://drive.google.com/file/d/1qdPK2rviIirp3LknuN_HMX2qtBQPPHUn/view?usp=drivesdk");
-
+}
 
 function donation(){
   window.open("donate.html");
