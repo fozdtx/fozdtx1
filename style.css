@@ -1,0 +1,111 @@
+body {
+    COLOR: white;
+    font-family: Arial;
+    background-image: url("bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+::selection{
+  background-color: transparent;
+  color: lime;
+  text-shadow: 0px 0px 5px lime;
+  font-weight: bold;
+}
+
+.btn-01{
+  background-color: white;
+  color: black;
+  border: 5px solid white;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.btn-01:hover{
+  transform: scale(1.1);
+}
+.btn-01:active{
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: progress;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: lime;
+  text-shadow: 0px 0px 5px lime;
+  cursor: pointer;
+}
+a:active{
+  color: deepskyblue;
+  text-shadow: 0px 0px 5px skyblue;
+  cursor: progress;
+}
+a:focus{
+  cursor: progress;
+}
+
+.img-01{
+  height: 300px;
+}
+
+l{
+  color: orange;
+  font-weight: bold;
+}
+
+ls{
+  color: orangered;
+}
+
+arg{
+  color: blue;
+}
+
+.code{
+  padding: 20px;
+  background-color: #21130d;
+}
+
+syntax{
+  color: white;
+}
+
+comments{
+  color: grey;
+}
+
+.border-50{
+  border: 2px solid white;
+  padding: 10px;
+  text-align: center;
+  width: 50%;
+  font-size: 10px;
+}
+
+.code-02{
+  background-color: #262626;
+}
+.flex{
+  display: flex;
+}
+
+.hover:hover{
+  color: lime;
+  text-shadow: 0px 0px 5px lime;
+  cursor: pointer;
+}
+.hover:active{
+  color: deepskyblue;
+  text-shadow: 0px 0px 5px skyblue;
+  cursor: progress;
+}
+.hover:focus{
+  cursor: progress;
+}
+
+a{
+  color: white;
+}
